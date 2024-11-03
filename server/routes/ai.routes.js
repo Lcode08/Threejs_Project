@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 const app = express();
-app.use(cors({ origin: 'https://threejs-project-six.vercel.app' })); // Allow requests from Vercel frontend
+app.use(cors({ origin: 'https://ai3dcreator.vercel.app/' })); // Allow requests from Vercel frontend
 app.use(express.json());
 
 const router = express.Router();
